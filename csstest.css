@@ -1,0 +1,17 @@
+li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li:hover {
+background-color: wheat;
+    color: blue;
+}
