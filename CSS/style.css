@@ -45,6 +45,7 @@ border-left: 1px solid #555552;
     background-color: #fff;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .nav-menu {
     text-align: center;
@@ -224,4 +225,17 @@ th {
     font-size: 12px;
     color: rgba(255,255,255,.4);
     white-space: nowrap;
+}
+
+/* css-mobie */
+@media only screen and (max-width: 750px){
+    .user-strip {
+        display: none;
+    }
+    .none-mobie {
+        display: none;
+    }
+    .nav-menu {
+        text-align: center;
+    }
 }
