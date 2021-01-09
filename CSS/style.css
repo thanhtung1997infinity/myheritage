@@ -1,3 +1,6 @@
+.bgr{
+    background-color: #595959;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -53,6 +56,9 @@ border-left: 1px solid #555552;
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+}
+.menu-mobie {
+    display: none;
 }
 .nav-menu li{
     position: relative;
@@ -270,15 +276,23 @@ th {
     color: rgba(255,255,255,.4);
     white-space: nowrap;
 }
+.on-menu-mobie{
+    display: block;
+    width: 30%;
 
+}
+.container-click{
+    width: 100%;
+}
 /* css-mobie */
 @media only screen and (max-width: 750px){
     .container {
-        width: 750;
+        width: 100%;
     }
     .user-strip {
         display: none;
     }
+    
     .none-mobie {
         display: none;
     }
