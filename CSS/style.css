@@ -278,7 +278,7 @@ th {
 }
 .on-menu-mobie{
     display: block;
-    width: 30%;
+    width: 40%;
 
 }
 .container-click{
@@ -292,7 +292,9 @@ th {
     .user-strip {
         display: none;
     }
-    
+    .width-mobie {
+        width: 100%;
+    }
     .none-mobie {
         display: none;
     }
@@ -309,9 +311,14 @@ th {
         background-position: 71px -68px;
         background-repeat: no-repeat;
         overflow: hidden;
-        width: 32%;
+        width: 33%;
         height: 40px;
         background-image: url(../image/masterpage_sprite.png);
+    }
+    .nav-header-menu .nav-logo:hover {
+        background-color: transparent;
+        background-position: 71px -68px;
+        background-repeat: no-repeat;
     }
     .main-img {
         display: none;
@@ -338,11 +345,64 @@ th {
     }
     .title-main {
         text-align: center;
-        font-size: 29px;
+        font-size: 30px;
         width: 100%;
         margin: 0;
     }
     .managers img {
         filter: grayscale(0%);
+    }
+    
+    .category-mobie a{
+        color: #fff;
+    }
+
+    .menu-mobie {
+        background-color: #555552;
+        height: 100vh;
+
+    }
+    .category-mobie a{
+        display: block;
+        padding: 8 0 8 18;
+        border-bottom: 1px solid #646362;
+    }
+    .category-mobie li{
+        position: relative;
+    }
+    .index1-menu-mobie a{
+        height: 15px;
+    }
+    .category-mobie .index1-menu-mobie:hover,.index1-menu-mobie .a-menu-mobe:hover{
+        background-color: transparent;
+    }
+    
+    .category-mobie a:hover {
+        background-color: #737373;
+
+    }
+    .category-mobie a:hover{
+        color: #e76f2f;
+    }
+    .category-mobie li:hover ul{
+        display: block;
+    }
+    .category-mobie ul {
+        display: none;
+    }
+    .submenu-mobie {
+        padding-left: 15px;
+    }
+    .submenu-mobie a{
+        border-bottom: transparent;
+    }
+    .submenu-mobie li:hover {
+        background-color: #737373;
+    }
+    .submenu-mobie a:hover {
+        color: #fff;
+    }
+    .bgr-logo {
+        background-position: 4px -68px !important;
     }
 }
