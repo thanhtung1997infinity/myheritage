@@ -302,6 +302,9 @@ th {
         padding: 10px;
         display: block;
     }
+    .nav-header {
+        position: static;
+    }
     .nav-header-menu {
         align-items: center;
         display: flex;
@@ -404,5 +407,53 @@ th {
     }
     .bgr-logo {
         background-position: 4px -68px !important;
+    }
+    .title-login {
+        text-align: center;
+        color: #f7e9a8;
+    }
+    .btn-logsign {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .btn-login {
+        border-bottom: transparent;
+        margin: 10px 3px 0;
+        padding: 11px 0 !important;
+        color: #555552 !important;
+        background-color: #f8f5ee;
+        border-radius: 4px;
+    }
+    .btn-signup {
+        margin: 12px 2px 0;
+        padding: 9px 0 11px !important;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: #f8f5ee !important;
+        border: 1px solid #f8f5ee !important;
+        border-radius: 4px;
+    }
+    .btn-signup:hover {
+        background-color: transparent !important;
+        text-decoration: underline;
+    }
+    .btn-login:hover {
+        background-color: #f8f5ee !important;
+        text-decoration: underline;
+    }
+    .div-gopremium {
+        padding: 0 10px;
+        text-align: center;
+        margin-top: 60vh;
+    }
+    .btn-gopremium {
+        display: block;
+        color: #fff;
+        border-color: #a4ba73;
+        background-color: #a4ba73;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 3px 12px;
     }
 }
